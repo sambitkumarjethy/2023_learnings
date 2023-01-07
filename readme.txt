@@ -9,5 +9,5 @@ All About REPO - 2023
     4. git status
     5. git commit -m "First commit 2023"
     6. git remote add origin git@github.com:sambitkumarjethy/2023_learnings.git
-    7.  git push origin master
+    7.  git push --set-upstream origin master
     
