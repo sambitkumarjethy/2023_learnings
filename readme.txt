@@ -31,3 +31,6 @@ https://www.youtube.com/watch?v=vIxGD...
 Github Link - https://github.com/girishgr8/Resume-B...
 
 Prateek bhaiya's resume  - http://www.prateeknarang.com/
+
+# React course
+Youtube link -- https://www.youtube.com/watch?v=lLeZ8Cr2YVM
