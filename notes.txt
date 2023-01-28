@@ -1,0 +1,19 @@
+React Hooks
+_____________________
+Hooks are new addition in React 16.8
+They let you use state and other react features without writing class.
+React hook is alternative approach of state management and lifecycle method .There are many hooks used for different purposses . Some of them are useReducer,useState,useCallBack,useMemo,useRef,useDispatcher.
+
+Component lifecycle
+_____________________
+1. Initialization - This is the stage where is component is constructed with the given props and default state .This is done in the constructor of component class.
+2. Monitoring - Monitoring is the stage of rendering the jsx returned by the render method itself.
+3. Updating - Updating is the stage when the state of a component is updated and the applicattion is repainted.
+4.Unmounting - Unmaunting is the final step of the component is removed from the page.
+
+Hooks
+_____________________
+1. useState Hooks - 
+It can be used in functional based component only.
+Syntax -- 
+const [selectedRoom,setSelectedRoom] = useState(initialValue)

@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 15px;
+}
+
+.btndec {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+
+h3 {
+  background-color: bisque;
+  padding: 10px;
+}
