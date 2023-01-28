@@ -1,9 +1,9 @@
-const Movie = (props) => {
+const Movie = ({ img, tittle, year }) => {
   return (
     <div className="movie">
-      <img src={props.img} alt="" />
-      <p>{props.tittle}</p>
-      <p>Year: {props.year}</p>
+      <img src={img} alt="" />
+      <p>{tittle}</p>
+      <p>Year: {year}</p>
     </div>
   );
 };
