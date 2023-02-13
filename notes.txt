@@ -17,3 +17,23 @@ _____________________
 It can be used in functional based component only.
 Syntax -- 
 const [selectedRoom,setSelectedRoom] = useState(initialValue)
+
+useState
+_____________________
+useState is a hook in React that allows you to add state to functional components. 
+State is a way of storing and managing data that affects a component's rendering and behavior. useState returns an array with two elements: the current state value, and a function that can be used to update it.
+Example ---
+import React, { useState } from 'react';
+
+function Example() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}

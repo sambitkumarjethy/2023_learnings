@@ -34,3 +34,16 @@ Prateek bhaiya's resume  - http://www.prateeknarang.com/
 
 # React course
 Youtube link -- https://www.youtube.com/watch?v=lLeZ8Cr2YVM
+
+Create React project 
+________
+npx create-react-app my-app
+cd my-app -- go to the folder
+npm start -- start react project
+
+if you have created a folder
+npx create-react-app .
+
+All code series -- IMP
+_______
+https://laracasts.com/series/
