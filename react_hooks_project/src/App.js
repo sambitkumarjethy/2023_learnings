@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import { useState } from "react";
-import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
+import Fields from "./components/Fields";
 
 function App() {
   const [form, setForm] = useState({});
@@ -14,12 +14,6 @@ function App() {
   const addData = () => {
     setData([...data, form]);
     setForm({});
-  };
-  const removeItem = (index) => {
-    console.log(index);
-    let arr = data;
-    arr.splice(index, 1);
-    setData([...arr]);
   };
 
   return (
@@ -62,19 +56,14 @@ function App() {
         </div>
         {data.map((element, index) => {
           return (
-            <div key={index} className="data_val">
-              <h4>{element.name}</h4>
-              <h4>{element.email}</h4>
-              <Stack>
-                <Button
-                  onClick={() => removeItem(index)}
-                  variant="outlined"
-                  color="error"
-                >
-                  <RemoveCircleOutlineIcon />
-                </Button>
-              </Stack>
-            </div>
+            <Fields
+              key={index}
+              name={element.name}
+              email={element.email}
+              index={index}
+              data={data}
+              setData={setData}
+            />
           );
         })}
       </div>
