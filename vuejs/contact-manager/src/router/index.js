@@ -4,6 +4,7 @@ import ContactManager from "../views/ContactManager.vue";
 import AddContact from "../views/AddContact.vue";
 import EditContact from "../views/EditContact.vue";
 import ViewContact from "../views/ViewContact.vue";
+import PageNotFound from "../views/PageNotFound.vue";
 
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
     path: "/contacts/view/:contactId",
     name: "ViewContact",
     component: ViewContact,
+  },
+  {
+    path: "/:pathMatch(.*)",
+    name: "PageNotFound",
+    component: PageNotFound,
   },
 ];
 const router = createRouter({
