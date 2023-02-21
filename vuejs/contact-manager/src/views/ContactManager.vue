@@ -1,10 +1,10 @@
 <template>
-  <router-view />
+  <h2>Contacts</h2>
 </template>
 
 <script>
 export default {
-  name: "App",
+  name: "ContactManager",
 };
 </script>
 
