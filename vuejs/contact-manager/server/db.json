@@ -1,5 +1,6 @@
 {
-    "contacts":[{
+    "contacts":[
+        {
         "id":"sada",
         "name":"sambit kumar jethy",
         "company":"youtube",
@@ -8,7 +9,8 @@
         "mobile" :"23424234234",
         "photo" :"https://pixlok.com/wp-content/uploads/2021/03/Avtar-Icon-PNG-Image.jpg",
         "groupID":"3"
-    },{
+    },
+    {
         "id":"sada",
         "name":"sambit  jethy",
         "company":"youtube",
@@ -17,7 +19,8 @@
         "mobile" :"23424234234",
         "photo" :"https://cdn.dribbble.com/users/3293507/screenshots/14667603/media/d8cbe035a61f64afdf6deabca5182842.jpg",
         "groupID":"3"
-    }],
+    }
+],
     "groups":[{
         "id":"1",
         "name":"colleage"
