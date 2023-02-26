@@ -28,6 +28,15 @@ app.post("/create", (req, res) => {
     }
   );
 });
+app.get("/employees", (req, res) => {
+  db.query("select * from employees", (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
 app.listen(3001, () => {
   console.log("server is running");
 });
